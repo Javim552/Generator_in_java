@@ -9,7 +9,7 @@ let when = [
 ];
 let palabra = "my homework";
 
-window.onload = function() {
+window.onload = function() { // esta funcion es para cuando se carga la pagina. No es necesario llamarla desde afuera de la funcion. las variables se nombran tanto fuera como adentro.
   //write your code here
 
   let primerapalabra = who[Math.floor(Math.random() * 4)];
